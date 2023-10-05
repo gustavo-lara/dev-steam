@@ -1,0 +1,30 @@
+.option img {
+    object-fit: cover;
+}
+
+.option {
+    display: flex;
+    text-align: end;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h3 {
+
+    margin: 0px;
+}
+
+.info h2 {
+    color: #BEEB14;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.info p {
+    color: red;
+    margin: 0px;
+    cursor: pointer;
+}

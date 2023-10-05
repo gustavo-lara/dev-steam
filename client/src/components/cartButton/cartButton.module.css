@@ -1,0 +1,10 @@
+.cartButton {
+    position: absolute;
+    right: 5%;
+    z-index: 10;
+}
+
+.cartButton img {
+    cursor: pointer;
+}
+
