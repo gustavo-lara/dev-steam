@@ -99,4 +99,8 @@
     .game {
         padding: 0px;
     }
+
+    .addCar:hover {
+        scale: 0.85;
+    }
 }

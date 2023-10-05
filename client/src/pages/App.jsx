@@ -25,7 +25,7 @@ const App = () => {
         <div className="titulo"><p>Promoções</p></div>
         <div className="cards">
           <Promo poster={gta} desc={"20"} precoa={"105,00"} preco={"84,00"}></Promo>
-          <Promo poster={forza} desc={"30"} precoa={"249,00"} preco={"174,30"}></Promo>
+          <Promo poster={forza} desc={"30"} precoa={"100,00"} preco={"70,00"}></Promo>
           <Promo poster={red} desc={"55"} precoa={"188,00"} preco={"84,60"}></Promo>
         </div>
       </div>

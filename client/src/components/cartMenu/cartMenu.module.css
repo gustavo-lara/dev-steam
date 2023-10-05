@@ -1,0 +1,47 @@
+
+.menu {
+    background: #364a63;
+    width: 360px;
+    position: absolute;
+    right: 60px;
+    padding: 1.2em;
+    z-index: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+
+.priceline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 10px;
+    background: #549300;
+    width: 225px;
+    margin-top: 15px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    height: 38px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #5b9e05;
+    scale: 1.025;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0.9);
+
+}

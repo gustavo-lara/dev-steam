@@ -1,6 +1,6 @@
 import styles from "./menu.module.css";
 import logo from "../../assets/logo.png";
-import iconCar from "../../assets/iconCar.svg";
+import CartButton from "../cartButton/cartButton";
 
 
 const Menu = () => {
@@ -9,7 +9,7 @@ const Menu = () => {
       <div className={styles.logo}> <img src={logo} alt="" /> </div>
       <div className={styles.devSteam}> DevSteam </div>
       <div className={styles.search}> <input type="text" placeholder="Buscar" /> </div>
-      <div target="_blank" onClick={"#"} className={styles.iconCar}> <img src={iconCar} alt="" /> </div>
+      <CartButton/>
     </div>
   );
 };
