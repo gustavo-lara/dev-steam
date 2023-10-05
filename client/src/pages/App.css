@@ -1,0 +1,85 @@
+body {
+    background: #1B2838;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.promo {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 15%;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.titulo p {
+    color: white;
+    font-size: 30px;
+    padding-left: 300px
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.games {
+    position: absolute;
+    width: 100%;
+    background: #1B2838;
+    height: auto;
+    top: 100%;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+    .titulo p {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    body {
+        width: 100%;
+    }
+
+    .titulo p {
+        padding-left: 20px;
+    }
+
+
+    .games {
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+
+    .titulo p {
+        padding-left: 10%;
+    }
+
+    .cards {
+        background-color: #1B2838;
+        flex-direction: column;
+    }
+
+    .games {
+        top: 160%;
+    }
+}

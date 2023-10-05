@@ -1,0 +1,102 @@
+.games {
+    width: 880px;
+    display: flex;
+    height: auto;
+    width: 900px;
+    background-color: #2983AA;
+    margin-bottom: 20px;
+}
+
+.games img {
+    width: 305px;
+    height: auto;
+    object-fit: cover;
+}
+
+.games h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    height: 30px;
+    width: 250px;
+}
+
+.games h4 {
+    padding-top: 0px;
+    color: #C7C7C7;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+
+}
+
+.games h2 {
+    color: #BEEB14;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+
+.addCar {
+    position: absolute;
+    left: 40;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 10px;
+    background: #549300;
+    width: 225px;
+    margin-top: 130px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 630px;
+    height: 38px;
+    transition: 0.4s;
+}
+
+.addCar:hover {
+    background-color: #5b9e05;
+    scale: 1.025;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0.9);
+
+}
+
+@media screen and (max-width: 770px) {
+    .games {
+        scale: 0.8;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .games {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .games img {
+        width: auto;
+        height: 300px;
+    }
+
+    .addCar {
+        margin-top: 425px;
+        margin-left: 180px;
+        scale: 0.8;
+    }
+
+    .game {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,104 @@
+.card {
+    background-color: #2983AA;
+    width: 250px;
+    height: 463px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-shadow: 10px 10px 14px rgb(18, 17, 17);
+}
+
+
+.card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    /* object-position: bottom; */
+}
+
+.card h3 {
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.desc {
+    background-color: #549300;
+    color: #BEEB14;
+    width: auto;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0px;
+}
+
+.box {
+    display: flex;
+    background: #344654;
+    margin-left: 10px;
+    width: 225px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.preco {
+    margin-left: 101px;
+    text-align: end;
+}
+
+.preco p {
+    text-decoration: line-through;
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.preco h4 {
+    color: #BEEB14;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.addCar {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 10px;
+    background: #549300;
+    width: 225px;
+    margin-top: 15px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    height: 38px;
+    transition: 0.4s;
+}
+
+.addCar:hover {
+    background-color: #5b9e05;
+    scale: 1.025;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0.9);
+
+}
+
+@media screen and (max-width: 770px) {
+    .card {
+        margin: 0px;
+        scale: 0.9;
+    }
+}
+
+@media screen and (max-width: 430px) {}
