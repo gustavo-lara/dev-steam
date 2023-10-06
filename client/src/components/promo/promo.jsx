@@ -11,10 +11,10 @@ const Promo = ({ poster, desc, precoa, preco }) => {
             <div className={styles.box}>
                 <div className={styles.desc}>
                     <p>-{desc}%</p>
-                </div>
+                    </div>
                 <div className={styles.preco}>
-                    <p>{precoa}R$</p>
-                    <h4>{preco}R$</h4>
+                    <p>R${precoa}</p>
+                    <h4>R${preco}</h4>
                 </div>
             </div>
 

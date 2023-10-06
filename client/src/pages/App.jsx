@@ -22,7 +22,7 @@ const App = () => {
     <div>
       <Menu></Menu>
       <div className="promo">
-        <div className="titulo"><p>Promoções</p></div>
+        <div className="titulo"><p>PROMOÇÕES</p></div>
         <div className="cards">
           <Promo poster={gta} desc={"20"} precoa={"105,00"} preco={"84,00"}></Promo>
           <Promo poster={forza} desc={"30"} precoa={"100,00"} preco={"70,00"}></Promo>
@@ -31,7 +31,7 @@ const App = () => {
       </div>
 
       <div className="games">
-        <div className="titulo"><p>Outros Jogos</p></div>
+        <div className="titulo"><p>OUTROS JOGOS</p></div>
         <div className="game">
           <Games img={mine} nome={"MINECRAFT DELUXE"} gen={"Mundo aberto, Multijogador"} preco={"169,00"}></Games>
           <Games img={ark} nome={"ARK SURVIVAL ENVOLVED"} gen={"Ação, Mundo aberto, Multijogador, Dinossauros"} preco={"179,90"}></Games>

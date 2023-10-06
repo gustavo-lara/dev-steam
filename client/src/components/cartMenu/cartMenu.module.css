@@ -61,4 +61,10 @@
     .menu {
         width: 290px;
     }
+    .btn{
+        width: 290px;
+    }
+    .total h2{
+        padding-left: 140px;
+    }
 }
